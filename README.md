@@ -1,17 +1,33 @@
-#### Add your own readme here.
+<div align="center">
 
-## Credits:
+# Tic Tac Toe
 
 ***
 
-<!-- Please keep this attribution at the bottom of your repository's readme. -->
+### This is a single page web application that allows you to play Tic Tac Toe against your friends!
 
-<div align="center">
-
-#### This website is made using the Simpl framework made by: [Iwan van der Wal](https://github.com/IJuanTM/Simpl/)
-
-#### Simpl is listed under free use and can be applied to any website or project.
-
-#### If you want to use Simpl in your own project or read more about Simpl please visit the Simpl GitHub page: https://www.github.com/IJuanTM/Simpl
+#### Made with JavaScript, HTML, and SCSS.
 
 </div>
+
+## Features:
+
+***
+
+- The game
+- A scoreboard
+
+## Future plans:
+
+***
+
+- An AI?
+- Remote play?
+
+***
+
+## An example:
+
+***
+
+<img src="img/tictactoe.png" alt="Image of the Tic Tac Toe website">
