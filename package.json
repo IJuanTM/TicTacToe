@@ -1,0 +1,38 @@
+{
+  "name": "tictactoe",
+  "description": "A simple website to play the game Tic Tac Toe on with your friends!",
+  "version": "1.0.0",
+  "devDependencies": {
+    "npm-watch": "^0.11.0",
+    "npm": "^8.9.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.51.0",
+    "clean-css-cli": "^5.6.0",
+    "terser": "^5.13.1",
+    "browser-sync": "^2.27.9"
+  },
+  "watch": {
+    "minify:js": "js/scripts/*.js"
+  },
+  "scripts": {
+    "dev": "run-p watch live",
+    "watch": "run-p watch:* -l",
+    "watch:js": "npm-watch minify:js",
+    "watch:scss": "sass -w style/scss/main.scss -s compressed style/css/main.css",
+    "watch:css": "cleancss -o style/css/main.min.css style/css/main.css --watch",
+    "minify:js": "terser js/scripts/*.js -o js/main.min.js -c -m --source-map",
+    "live": "browser-sync start -p http://local.tictactoe.net/ -f style/css/main.min.css js/main.min.js --no-online --no-notify --no-ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IJuanTM/TicTacToe"
+  },
+  "keywords": [
+    "game",
+    "JavaScript",
+    "Tic Tac Toe"
+  ],
+  "author": "Iwan van der Wal",
+  "license": "MIT",
+  "homepage": "https://tictactoe.iwanvanderwal.nl/"
+}

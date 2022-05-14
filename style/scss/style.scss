@@ -1,0 +1,34 @@
+html {
+  line-height: 1.25;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+noscript {
+  color: #FF0000;
+  display: block;
+  font-size: 1rem;
+  line-height: 4rem;
+  text-align: center;
+  font-family: monospace;
+  background-color: #000;
+
+  @media screen and (min-width: $lg) {
+    font-size: 1.25rem;
+  }
+}
+
+a {
+  text-decoration: underline;
+
+  &:hover {
+    color: rgb(0 0 0 / .8);
+  }
+}
+
+hr {
+  color: #000;
+  height: .125rem;
+}

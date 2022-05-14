@@ -1,0 +1,12 @@
+footer {
+  height: 2rem;
+  padding: 0 1rem;
+  font-size: .75rem;
+  background-color: #F5F5F5;
+
+  @include box-shadow(0 -.25rem .125rem -.25rem rgb(0 0 0 / .25));
+
+  a {
+    text-decoration: none;
+  }
+}

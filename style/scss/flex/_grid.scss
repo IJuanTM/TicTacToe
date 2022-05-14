@@ -1,0 +1,16 @@
+*.row {
+  width: 100%;
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+
+  > *.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+}
+
+*.f-0 {
+  flex: 0 0 0 !important;
+}
