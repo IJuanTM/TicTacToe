@@ -80,12 +80,12 @@ const Owins = (state) => {
   oWins++;
   start = 'x';
   message.innerHTML = 'Circle wins!';
-  if (state[0] === 0 && state[1] === 1 && state[2] === 2) setLine('h', 10.25, '#00f');
-  else if (state[0] === 3 && state[1] === 4 && state[2] === 5) setLine('h', 33.5, '#00f');
-  else if (state[0] === 6 && state[1] === 7 && state[2] === 8) setLine('h', 56.75, '#00f');
-  else if (state[0] === 0 && state[1] === 3 && state[2] === 6) setLine('v', 10.25, '#00f');
-  else if (state[0] === 1 && state[1] === 4 && state[2] === 7) setLine('v', 33.5, '#00f');
-  else if (state[0] === 2 && state[1] === 5 && state[2] === 8) setLine('v', 56.75, '#00f');
+  if (state[0] === 0 && state[1] === 1 && state[2] === 2) setLine('h', 11, '#00f');
+  else if (state[0] === 3 && state[1] === 4 && state[2] === 5) setLine('h', 35.2, '#00f');
+  else if (state[0] === 6 && state[1] === 7 && state[2] === 8) setLine('h', 59.4, '#00f');
+  else if (state[0] === 0 && state[1] === 3 && state[2] === 6) setLine('v', 11, '#00f');
+  else if (state[0] === 1 && state[1] === 4 && state[2] === 7) setLine('v', 35.2, '#00f');
+  else if (state[0] === 2 && state[1] === 5 && state[2] === 8) setLine('v', 59.4, '#00f');
   else if (state[0] === 0 && state[1] === 4 && state[2] === 8) setLine('dl', null, '#00f');
   else if (state[0] === 2 && state[1] === 4 && state[2] === 6) setLine('dr', null, '#00f');
 }
@@ -95,12 +95,12 @@ const Xwins = (state) => {
   xWins++;
   start = 'o';
   message.innerHTML = 'Cross wins!';
-  if (state[0] === 0 && state[1] === 1 && state[2] === 2) setLine('h', 10.25, '#f00');
-  else if (state[0] === 3 && state[1] === 4 && state[2] === 5) setLine('h', 33.5, '#f00');
-  else if (state[0] === 6 && state[1] === 7 && state[2] === 8) setLine('h', 56.75, '#f00');
-  else if (state[0] === 0 && state[1] === 3 && state[2] === 6) setLine('v', 10.25, '#f00');
-  else if (state[0] === 1 && state[1] === 4 && state[2] === 7) setLine('v', 33.5, '#f00');
-  else if (state[0] === 2 && state[1] === 5 && state[2] === 8) setLine('v', 56.75, '#f00');
+  if (state[0] === 0 && state[1] === 1 && state[2] === 2) setLine('h', 11, '#f00');
+  else if (state[0] === 3 && state[1] === 4 && state[2] === 5) setLine('h', 35.2, '#f00');
+  else if (state[0] === 6 && state[1] === 7 && state[2] === 8) setLine('h', 59.4, '#f00');
+  else if (state[0] === 0 && state[1] === 3 && state[2] === 6) setLine('v', 11, '#f00');
+  else if (state[0] === 1 && state[1] === 4 && state[2] === 7) setLine('v', 35.2, '#f00');
+  else if (state[0] === 2 && state[1] === 5 && state[2] === 8) setLine('v', 59.4, '#f00');
   else if (state[0] === 0 && state[1] === 4 && state[2] === 8) setLine('dl', null, '#f00');
   else if (state[0] === 2 && state[1] === 4 && state[2] === 6) setLine('dr', null, '#f00');
 }
